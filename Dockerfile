@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node
 
 RUN git clone -q https://github.com/Josue9876/lab04-nube
 
