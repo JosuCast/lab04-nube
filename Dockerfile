@@ -1,6 +1,8 @@
 FROM node:16-alpine
 
-WORKDIR /app
+RUN git clone -q https://github.com/Josue9876/lab04-nube
+
+WORKDIR lab04-nube
 
 COPY package*.json ./
 
